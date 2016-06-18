@@ -1,0 +1,251 @@
+@font-face {
+	font-family: Forum;
+	src: url("fonts/Forum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Marta;
+	src: url("fonts/Marta_Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: Marta;
+	font-style: italic;
+	src: url("fonts/Marta_Italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Marta;
+	font-style: bold;
+	src: url("fonts/Marta_Bold.otf") format("opentype");
+}
+
+body {
+	margin:0;
+	width: 0; 
+    width: 100%;
+}
+.cards {
+	width: 200mm;
+}
+.card {
+    display: inline-block;
+    vertical-align: top;
+	font-weight: bold;
+	font-family: Forum; 
+	height: 88mm;
+	width: 63mm;
+	/*background-image: url('../pics/preview-Arcane-front3.jpg');*/
+	background-color:  #C03E2E;
+	background-size: 63mm ;
+	padding: 2.2mm 2.2mm;
+	box-sizing: border-box;
+	/*margin-bottom: 1px;*/
+    border-bottom: 2px solid #fff;
+	margin-right: 1px;
+
+	background-color: #999;
+}
+.title {
+	font-size: 4mm;
+	line-height: 4mm;
+	padding: 0.5mm; 
+	font-family: Marta; 
+	min-height: 5mm;
+	border-bottom: 1px solid  #999;
+	border-radius: 2mm 2mm 0 0;
+	text-align: center;
+	box-sizing:border-box ;
+	background-color: #FFF;
+
+}
+.level {
+	/*font-size: 4mm;*/
+	line-height: 0.85mm;
+	font-size: 2.0mm;
+	padding: 0.5mm; 
+	font-family: Forum; 
+	height: 2.1mm;
+	text-align: center;
+	box-sizing:border-box ;
+	color: #FFF;
+
+	background-color: #999;
+}
+.props {
+	border: none;
+	text-align: center;
+	/*display: table;*/
+	height: 15.5mm;
+	width: 100%;
+}
+.prop {
+	width: 50%;
+	height: 7.9mm;
+	float: left;
+	/*border: 1px solid #C03E2E;*/
+	/*border: none; */
+	border: 0px solid #999;
+	box-sizing:border-box ;
+}
+.prop:first-child {
+	border-right: 1px solid #999;
+}
+.prop + .prop {
+	border-left: 1px solid #999;
+}
+.prop + .prop + .prop {
+	border-left: none;
+	border-right: 1px solid #999;
+	border-top: 2px solid #999;
+}
+.prop + .prop + .prop + .prop {
+	border-right: none;
+	border-left: 1px solid #999;
+}
+.propName {
+	font-family: Marta;
+	line-height: 4mm;
+	font-size: 2.6mm;
+	height: 4mm;
+	background-color: #fff;
+
+	color: #999;
+}
+.propValue {
+	line-height: 3.5mm;
+	font-size: 2.8mm;
+	height: 4mm;
+	background-color: #fff;
+}
+.text {
+	height: 56mm;
+	border-radius: 0 0 2mm 2mm ;
+	box-sizing:border-box;
+	position: relative;
+	background-color: #fff;
+	font-weight: normal;
+}
+.text.bigName {
+	height: 52mm;
+}
+.text p {
+	font-size: 2.3mm;
+	line-height: 2.3mm;
+	padding: 0 1.9mm; 
+	margin: 0mm; 
+	margin-top: 1.3mm; 	
+	margin-bottom: 1.3mm; 
+}
+
+.text.small p{
+    font-size: 2mm;
+    line-height: 1.8mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+.text.preSmall p{
+	color: green;
+    font-size: 2mm;
+    line-height: 1.8mm;
+    margin-top: 1mm;
+    margin-bottom: 1mm;
+}
+.text p:first-child {
+	margin-top: 2.7mm; 	
+}
+.text p:last-child {
+	margin-bottom: 2.0mm; 	
+}
+
+.higherLevels {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid  #999;
+
+}
+ p.first {
+	margin-top: 2.0mm; 	
+}
+.higherLevels p:last-child {
+	margin-bottom: 2.0mm; 	
+}
+.footer {
+	font-family: Marta;
+	line-height: 7mm;
+	font-size: 3.7mm;
+	height: 7mm;
+	color: #FFF;
+
+}
+
+
+
+.card.cardArcane { 	background-color: #C03E2E; }
+.cardArcane .title { 	border-bottom: 1px solid  #C03E2E; }
+.cardArcane .level { 	background-color: #C03E2E; }
+.cardArcane .higherLevels {     border-top: 1px solid  #C03E2E;     }
+.cardArcane .prop { 	border-color: #C03E2E !important; }
+ .cardArcane .propName { 	color: #C03E2E; }
+
+
+
+.card.cardKoldun { 	background-color: #502782; }
+.cardKoldun .title { 	border-bottom: 1px solid  #502782; }
+.cardKoldun .level { 	background-color: #502782; }
+.cardKoldun .higherLevels {     border-top: 1px solid  #502782;     }
+.cardKoldun .prop { 	border-color: #502782 !important; }
+ .cardKoldun .propName { 	color: #502782; }
+
+
+
+
+.card.cardSorserer { 	background-color: #204291; }
+.cardSorserer .title { 	border-bottom: 1px solid  #204291; }
+.cardSorserer .level { 	background-color: #204291; }
+.cardSorserer .higherLevels {     border-top: 1px solid  #204291;     }
+.cardSorserer .prop { 	border-color: #204291 !important; }
+ .cardSorserer .propName { 	color: #204291; }
+
+
+
+
+
+.card.cardRanger { 	background-color: #624B21; }
+.cardRanger .title { 	border-bottom: 1px solid  #624B21; }
+.cardRanger .level { 	background-color: #624B21; }
+.cardRanger .higherLevels {     border-top: 1px solid  #624B21;     }
+.cardRanger .prop { 	border-color: #624B21 !important; }
+ .cardRanger .propName { 	color: #624B21; }
+
+
+
+.cardCleric.card { background-color: #D6A127; }
+.cardCleric .title { border-bottom: 1px solid  #D6A127; }
+.cardCleric .level { background-color: #D6A127; }
+.cardCleric .higherLevels { border-top: 1px solid  #D6A127; }
+.cardCleric .prop {	border-color: #D6A127 !important; }
+.cardCleric .propName { color: #D6A127; }
+
+.cardDruid.card { background-color: #64A048; }
+.cardDruid .title { border-bottom: 1px solid  #64A048; }
+.cardDruid .level { background-color: #64A048; }
+.cardDruid .higherLevels { border-top: 1px solid  #64A048; }
+.cardDruid .prop {	border-color: #64A048 !important; }
+.cardDruid .propName { color: #64A048; }
+
+
+.cardPaladin.card { background-color: #38A5C6; }
+.cardPaladin .title { border-bottom: 1px solid  #38A5C6; }
+.cardPaladin .level { background-color: #38A5C6; }
+.cardPaladin .higherLevels { border-top: 1px solid  #38A5C6; }
+.cardPaladin .prop {	border-color: #38A5C6 !important; }
+.cardPaladin .propName { color: #38A5C6; }
+
+
+.cardBard.card { background-color: #812264; }
+.cardBard .title { border-bottom: 1px solid  #812264; }
+.cardBard .level { background-color: #812264; }
+.cardBard .higherLevels { border-top: 1px solid  #812264; }
+.cardBard .prop {	border-color: #812264 !important; }
+.cardBard .propName { color: #812264; }

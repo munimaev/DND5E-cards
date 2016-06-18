@@ -1,0 +1,3160 @@
+{
+  "models": [
+    {
+      "modelMainType": "Infantry",
+      "modelName": "ChaplainCassius",
+      "visibleModelName": "Chaplain Cassius",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 6,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SergeantChronus",
+      "visibleModelName": "Sergeant Chronus",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "CaptainSicarius",
+      "visibleModelName": "Captain Sicarius",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 5,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "ChiefLibrarianTigurius",
+      "visibleModelName": "Chief Librarian Tigurius",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 2,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "CaptainLysander",
+      "visibleModelName": "Captain Lysander",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 4,
+        "I": 5,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "HighMarshalHelbrecht",
+      "visibleModelName": "High Marshal Helbrecht",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 4,
+        "I": 5,
+        "A": 4,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "KorsarroKhan",
+      "visibleModelName": "Kor'sarro Khan",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 5,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "PedroKantor",
+      "visibleModelName": "Pedro Kantor",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 4,
+        "I": 5,
+        "A": 4,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "ShadowCaptainShrike",
+      "visibleModelName": "Shadow Captain Shrike",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 5,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "ChaplainGrimaldus",
+      "visibleModelName": "Chaplain Grimaldus",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 4,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "CenobyteServitor",
+      "visibleModelName": "Cenobyte Servitor",
+      "defaultAbilities": {
+        "WS": 3,
+        "BS": 3,
+        "S": 3,
+        "T": 3,
+        "W": 1,
+        "I": 3,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SergeantTellion",
+      "visibleModelName": "Sergeant Tellion",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 6,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "TheEmperorsChampion",
+      "visibleModelName": "The Emperor's Champion",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 2,
+        "I": 5,
+        "A": 2,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "VulkanHestan",
+      "visibleModelName": "Vulkan He'stan",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 5,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Captain",
+      "visibleModelName": "Captain",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 3,
+        "I": 5,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_ChapterMaster",
+      "visibleModelName": "Chapter Master",
+      "defaultAbilities": {
+        "WS": 6,
+        "BS": 5,
+        "S": 4,
+        "T": 4,
+        "W": 4,
+        "I": 5,
+        "A": 4,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_HonourGuard",
+      "visibleModelName": "Honour Guard",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_ChapterChampion",
+      "visibleModelName": "Chapter Champion",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 3,
+        "Ld": 10,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_SpaceMarine",
+      "visibleModelName": "Space Marine",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_SpaceMarine_Sergeant",
+      "visibleModelName": "Space Marine Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Veteran",
+      "visibleModelName": "Veteran",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_VeteranSergeant",
+      "visibleModelName": "Veteran Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_CompanyChampion",
+      "visibleModelName": "Company Champion",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Apothecary",
+      "visibleModelName": "Apothecary",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Scout",
+      "visibleModelName": "Scout",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Scout_Sergeant",
+      "visibleModelName": "Scout Sergeant",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Veteran_Scout_Sergeant",
+      "visibleModelName": "Veteran Scout Sergeant",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Initiate",
+      "visibleModelName": "Initiate",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Neophyte",
+      "visibleModelName": "Neophyte",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_SwordBrother",
+      "visibleModelName": "Sword Brother",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Legionnaire",
+      "visibleModelName": "Legionnaire",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Legionnaire_Sergeant",
+      "visibleModelName": "Legionnaire Sergeant",
+      "defaultAbilities": {
+        "WS": 5,
+        "BS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 10,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Terminator",
+      "visibleModelName": "Terminator",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_TerminatorSergeant",
+      "visibleModelName": "Terminator Sergeant",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 4,
+        "T": 4,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Vehicle",
+      "modelName": "SM_Dreadnought",
+      "visibleModelName": "Dreadnought",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 6,
+        "AF": 12,
+        "AS": 12,
+        "AR": 10,
+        "I": 4,
+        "A": 4,
+        "HP": 3
+      }
+    },
+    {
+      "modelMainType": "Vehicle",
+      "modelName": "SM_VenerableDreadnought",
+      "visibleModelName": "Venerable Dreadnought",
+      "defaultAbilities": {
+        "BS": 5,
+        "WS": 5,
+        "S": 6,
+        "AF": 12,
+        "AS": 12,
+        "AR": 10,
+        "I": 4,
+        "A": 4,
+        "HP": 3
+      }
+    },
+    {
+      "modelMainType": "Vehicle",
+      "modelName": "SM_IroncladDreadnought",
+      "visibleModelName": "Ironclad Dreadnought",
+      "defaultAbilities": {
+        "BS": 4,
+        "WS": 4,
+        "S": 6,
+        "AF": 13,
+        "AS": 13,
+        "AR": 10,
+        "I": 4,
+        "A": 4,
+        "HP": 3
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_Centurion",
+      "visibleModelName": "Centurion",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 5,
+        "T": 5,
+        "W": 2,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_CenturionSergeant",
+      "visibleModelName": "Centurion Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 5,
+        "T": 5,
+        "W": 2,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Infantry",
+      "modelName": "SM_CenturionVeteranSergeant",
+      "visibleModelName": "Centurion Veteran Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 5,
+        "T": 5,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 2
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_ScoutBiker",
+      "visibleModelName": "Scout Biker",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_ScoutBikerSergeant",
+      "visibleModelName": "Scout Biker Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_ScoutBikerVeteranSergeant",
+      "visibleModelName": "Scout Biker Veteran Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 4
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_Biker",
+      "visibleModelName": "Space Marine Biker",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_BikerSergeant",
+      "visibleModelName": "Biker Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 1,
+        "I": 4,
+        "A": 1,
+        "Ld": 8,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_BikerVeteranSergeant",
+      "visibleModelName": "Biker Veteran Sergeant",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 1,
+        "I": 4,
+        "A": 2,
+        "Ld": 9,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Bike",
+      "modelName": "SM_AttackBike",
+      "visibleModelName": "Attack Bike",
+      "defaultAbilities": {
+        "WS": 4,
+        "BS": 4,
+        "S": 4,
+        "T": 5,
+        "W": 2,
+        "I": 4,
+        "A": 2,
+        "Ld": 8,
+        "Sv": 3
+      }
+    },
+    {
+      "modelMainType": "Vehicle",
+      "modelName": "LandSpeeder",
+      "visibleModelName": "Land Speeder",
+      "defaultAbilities": {
+        "BS": 4,
+        "AF": 10,
+        "AS": 10,
+        "AR": 10,
+        "HP": 2
+      }
+    },
+    {
+      "modelMainType": "Vehicle",
+      "modelName": "LandSpeederStorm",
+      "visibleModelName": "Land Speeder Storm",
+      "defaultAbilities": {
+        "BS": 4,
+        "AF": 10,
+        "AS": 10,
+        "AR": 10,
+        "HP": 2
+      }
+    },
+    {
+      "modelMainType": "Vehicle",
+      "modelName": "SM_StormtalonGunship",
+      "visibleModelName": "Stormtalon Gunship",
+      "defaultAbilities": {
+        "BS": 4,
+        "AF": 11,
+        "AS": 11,
+        "AR": 11,
+        "HP": 2
+      }
+    }
+  ],
+  "wargear": [
+      {
+        "wargearName": "Autopistol",
+        "visibleName": "Autopistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 3,
+          "type": [
+            "Pistol"
+          ]
+        }
+      },
+      {
+        "wargearName": "Autogun",
+        "visibleName": "Autogun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 3,
+          "type": [
+            "RapidFire"
+          ]
+        }
+      },
+      {
+        "wargearName": "AssaultCannon",
+        "visibleName": "Assault cannon",
+        "abilities": {
+          "range": 24,
+          "S": 6,
+          "AP": 4,
+          "type": [
+            "Heavy_4",
+            "Rending"
+          ]
+        }
+      },
+      {
+        "wargearName": "Autocannon",
+        "visibleName": "Autocannon",
+        "abilities": {
+          "range": 48,
+          "S": 7,
+          "AP": 4,
+          "type": [
+            "Heavy_2"
+          ]
+        }
+      },
+      {
+        "wargearName": "BattleCannon",
+        "visibleName": "Battle cannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 72,
+          "S": 8,
+          "AP": 2,
+          "type": [
+            "Ordance_1",
+            "LargeBlast"
+          ]
+        }
+      },
+      {
+        "wargearName": "Boltgun",
+        "visibleName": "Boltgun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 4,
+          "AP": 5,
+          "type": [
+            "RapidFire"
+          ]
+        }
+      },
+      {
+        "wargearName": "BoltPistol",
+        "visibleName": "Bolt pistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 4,
+          "AP": 5,
+          "type": [
+            "Pistol"
+          ]
+        }
+      },
+      {
+        "wargearName": "CombiFlamer",
+        "visibleName": "Combi-flamer",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Boltgun",
+            "range": 24,
+            "S": 4,
+            "AP": 5,
+            "type": [
+              "RapidFire"
+            ]
+          },
+          {
+            "name": "Flamer",
+            "range": "Template",
+            "S": 4,
+            "AP": 5,
+            "type": [
+              "Assault_1",
+              "OneUseOnly"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "CombiGrav",
+        "visibleName": "Combi-grav",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Boltgun",
+            "range": 24,
+            "S": 4,
+            "AP": 5,
+            "type": [
+              "RapidFire"
+            ]
+          },
+          {
+            "name": "Grav-gun",
+            "range": 18,
+            "S": "*",
+            "AP": 2,
+            "type": [
+              "Salvo_2_3",
+              "Concussive",
+              "Graviton",
+              "OneUseOnly"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "CombiMelta",
+        "visibleName": "Combi-melta",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Boltgun",
+            "range": 24,
+            "S": 4,
+            "AP": 5,
+            "type": [
+              "RapidFire"
+            ]
+          },
+          {
+            "name": "Meltagun",
+            "range": 12,
+            "S": 8,
+            "AP": 1,
+            "type": [
+              "Assault_1",
+              "Melta",
+              "OneUseOnly"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "CombiPlasma",
+        "visibleName": "Combi-plasma",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Boltgun",
+            "range": 24,
+            "S": 4,
+            "AP": 5,
+            "type": [
+              "RapidFire"
+            ]
+          },
+          {
+            "name": "Plasma gun",
+            "range": 24,
+            "S": 7,
+            "AP": 2,
+            "type": [
+              "RapidFire",
+              "GetsHot",
+              "OneUseOnly"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "DragonsBreathFlamer",
+        "visibleName": "Dragon's breath flamer",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 5,
+          "AP": 4,
+          "type": [
+            "Assault_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "HeavyBolter",
+        "visibleName": "Heavy bolter",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 36,
+          "S": 5,
+          "AP": 4,
+          "type": [
+            "Heavy_3"
+          ]
+        }
+      },
+      {
+        "wargearName": "HeavyBolterWithHellfireShells",
+        "visibleName": "Heavy bolter with Hellfire shells",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Heavy bolter",
+            "range": 36,
+            "S": 5,
+            "AP": 4,
+            "type": [
+              "Heavy_3",
+              "HellfireShells"
+            ]
+          },
+          {
+            "name": "Heavy bolter with Hellfire shells",
+            "range": 24,
+            "S": 1,
+            "type": [
+              "Heavy_1",
+              "Blast",
+              "Poisoned_2"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "HeavyFlamer",
+        "visibleName": "Heavy flamer",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 5,
+          "AP": 4,
+          "type": [
+            "Assault_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "HeavyStubber",
+        "visibleName": "Heavy stubber",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 36,
+          "S": 4,
+          "type": [
+            "Heavy_3"
+          ]
+        }
+      },
+      {
+        "wargearName": "HeatRayDispersedBeam)",
+        "visibleName": "Heat ray (dispersed beam)",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 5,
+          "AP": 4,
+          "type": [
+            "Heavy_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "HandFlamer",
+        "visibleName": "Hand flamer",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 3,
+          "AP": 6,
+          "type": [
+            "Pistol"
+          ]
+        }
+      },
+      {
+        "wargearName": "HunterKillerMissiles",
+        "visibleName": "Hunterkiller missiles",
+        "wargearType": "RangedWeapon"
+      },
+      {
+        "wargearName": "HurricaneBolter",
+        "visibleName": "Hurricane bolters",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "name": "Boltgun",
+          "range": 24,
+          "S": 4,
+          "AP": 5,
+          "type": [
+            "RapidFire"
+          ]
+        },
+        "specialRules": [
+          {
+            "textEng": "A hurricane bolter consists of three twin-linked boltguns fired as a single weapon.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "Flamer",
+        "visibleName": "Flamer",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 4,
+          "AP": 5,
+          "type": [
+            "Assault_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "Flamespurt",
+        "visibleName": "Flamespurt",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 5,
+          "AP": 4,
+          "type": [
+            "Assault_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "FlamestormCannon",
+        "visibleName": "Flamestorm cannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 6,
+          "AP": 3,
+          "type": [
+            "Assault_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "GravCannon",
+        "visibleName": "Grav-cannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": "*",
+          "AP": 2,
+          "type": [
+            "Salvo_3_5",
+            "Concussive",
+            "Graviton"
+          ]
+        }
+      },
+      {
+        "wargearName": "GravCannonWithAmp",
+        "visibleName": "Grav-cannon with amp",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": "*",
+          "AP": 2,
+          "type": [
+            "Salvo_3_5",
+            "Concussive",
+            "Graviton",
+            "GravAmp"
+          ]
+        }
+      },
+      {
+        "wargearName": "GravGun",
+        "visibleName": "Grav-gun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 18,
+          "S": "*",
+          "AP": 2,
+          "type": [
+            "Salvo_2_3",
+            "Concussive",
+            "Graviton"
+          ]
+        }
+      },
+      {
+        "wargearName": "GraviPistol",
+        "visibleName": "Gravi-pistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": "*",
+          "AP": 2,
+          "type": [
+            "Pistol",
+            "Concussive",
+            "Graviton"
+          ]
+        }
+      },
+      {
+        "wargearName": "HotShotLasgun",
+        "visibleName": "Hot-shot lasgun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 18,
+          "S": 3,
+          "AP": 3,
+          "type": [
+            "RapidFire"
+          ]
+        }
+      },
+      {
+        "wargearName": "HotShotLaspistol",
+        "visibleName": "Hot-shot laspistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 6,
+          "S": 3,
+          "AP": 3,
+          "type": [
+            "Pistol"
+          ]
+        }
+      },
+      {
+        "wargearName": "IcarusLascannon",
+        "visibleName": "Icarus Lascannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 96,
+          "S": 9,
+          "AP": 2,
+          "type": [
+            "Heavy_1",
+            "Interseptor",
+            "Skyfire"
+          ]
+        }
+      },
+      {
+        "wargearName": "InfernoCannon",
+        "visibleName": "Inferno cannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": "Template",
+          "S": 6,
+          "AP": 4,
+          "type": [
+            "Heavy_1",
+            "Torrent"
+          ]
+        }
+      },
+      {
+        "wargearName": "InfernoPistol",
+        "visibleName": "Inferno pistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 6,
+          "S": 8,
+          "AP": 1,
+          "type": [
+            "Pistol",
+            "Melta"
+          ]
+        }
+      },
+      {
+        "wargearName": "Lascannon",
+        "visibleName": "Lascannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 48,
+          "S": 9,
+          "AP": 2,
+          "type": [
+            "Heavy_1"
+          ]
+        }
+      },
+      {
+        "wargearName": "Lasgun",
+        "visibleName": "Lasgun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 3,
+          "type": [
+            "RapidFire"
+          ]
+        }
+      },
+      {
+        "wargearName": "Laspistol",
+        "visibleName": "Laspistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 3,
+          "type": [
+            "Pistol"
+          ]
+        }
+      },
+      {
+        "wargearName": "MeltaGun",
+        "visibleName": "Meltagun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 8,
+          "AP": 1,
+          "type": [
+            "Assault_1",
+            "Melta"
+          ]
+        }
+      },
+      {
+        "wargearName": "MeltaCannon",
+        "visibleName": "Melta cannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 8,
+          "AP": 1,
+          "type": [
+            "Heavy_1",
+            "Melta"
+          ]
+        }
+      },
+      {
+        "wargearName": "MissleLuauncher",
+        "visibleName": "Missle luauncher",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Frag missile",
+            "range": 48,
+            "S": 4,
+            "AP": 6,
+            "type": [
+              "Heavy_1",
+              "Blast"
+            ]
+          },
+          {
+            "name": "Flakk missile",
+            "range": 48,
+            "S": 4,
+            "AP": 6,
+            "type": [
+              "Heavy_1",
+              "Blast"
+            ]
+          }
+        ],
+        "specialRules": [
+          {
+            "textEng": "All missile launchers come with frag and krak missiles as standard, and some have the option to upgrade to include flakk missiles. Each time a missile launcher fires, the controlling player must choose which type of missile is being used.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "MissleLuauncherFlakk",
+        "visibleName": "Missle luauncher with Flakk",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Frag missile",
+            "range": 48,
+            "S": 4,
+            "AP": 6,
+            "type": [
+              "Heavy_1",
+              "Blast"
+            ]
+          },
+          {
+            "name": "Flakk missile",
+            "range": 48,
+            "S": 4,
+            "AP": 6,
+            "type": [
+              "Heavy_1",
+              "Blast"
+            ]
+          },
+          {
+            "name": "Krakk missile",
+            "range": 48,
+            "S": 8,
+            "AP": 3,
+            "type": [
+              "Heavy_1"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "MultiLaser",
+        "visibleName": "Multi-laser",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 36,
+          "S": 6,
+          "AP": 6,
+          "type": [
+            "Heavy_3"
+          ]
+        }
+      },
+      {
+        "wargearName": "MultiMelta",
+        "visibleName": "Multi-melta",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 8,
+          "AP": 1,
+          "type": [
+            "Assault_1",
+            "Blast",
+            "Melta"
+          ]
+        }
+      },
+      {
+        "wargearName": "Shotgun",
+        "visibleName": "Shotgun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 3,
+          "type": [
+            "Assault_2"
+          ]
+        }
+      },
+      {
+        "wargearName": "SniperRifle",
+        "visibleName": "Sniper rifle",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 36,
+          "S": "X",
+          "type": [
+            "Heavy_1",
+            "Sniper"
+          ]
+        }
+      },
+      {
+        "wargearName": "SpaceMarineShotgun",
+        "visibleName": "Space Marine Shotgun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 4,
+          "type": [
+            "Assault_2"
+          ]
+        }
+      },
+      {
+        "wargearName": "StubGun",
+        "visibleName": "Stub gun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 3,
+          "type": [
+            "Pistol"
+          ]
+        }
+      },
+      {
+        "wargearName": "VulcanMegaBolter",
+        "visibleName": "Vulcan-mega bolter",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 60,
+          "S": 6,
+          "AP": 3,
+          "type": [
+            "Heavy_15"
+          ]
+        }
+      },
+      {
+        "wargearName": "PlasmaCannon",
+        "visibleName": "Plasma cannon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 36,
+          "S": 7,
+          "AP": 2,
+          "type": [
+            "Heavy_1",
+            "Blast",
+            "GetsHot"
+          ]
+        }
+      },
+      {
+        "wargearName": "PlasmaGun",
+        "visibleName": "Plasma gun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 7,
+          "AP": 2,
+          "type": [
+            "RapidFire",
+            "GetsHot"
+          ]
+        }
+      },
+      {
+        "wargearName": "PlasmaPistol",
+        "visibleName": "Plasma pistol",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 12,
+          "S": 7,
+          "AP": 2,
+          "type": [
+            "Pistol",
+            "GetsHot"
+          ]
+        }
+      },
+      {
+        "wargearName": "PunisherGatlingCanon",
+        "visibleName": "Punisher gatling canon",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 5,
+          "type": [
+            "Heavy_20"
+          ]
+        }
+      },
+      {
+        "wargearName": "QuadeGun",
+        "visibleName": "Quade-gun",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 48,
+          "S": 7,
+          "AP": 4,
+          "type": [
+            "Heavy_4",
+            "Interseptor",
+            "Skyfire",
+            "TwinLinked"
+          ]
+        }
+      },
+      {
+        "wargearName": "StormBolter",
+        "visibleName": "Storm bolter",
+        "wargearType": "RangedWeapon",
+        "abilities": {
+          "range": 24,
+          "S": 4,
+          "AP": 5,
+          "type": [
+            "Assault_2"
+          ]
+        }
+      },
+      {
+        "wargearName": "Chainfist",
+        "visibleName": "Chainfist",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "Armourbane",
+            "SpecialistWeapon",
+            "Unwieldy"
+          ]
+        }
+      },
+      {
+        "wargearName": "Chainsword",
+        "visibleName": "Chainsword",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "type": [
+            "Melee"
+          ]
+        }
+      },
+      {
+        "wargearName": "ChainswordWithAnEviscerator",
+        "visibleName": "Chainsword with an eviscerator",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "Armourbane",
+            "TwoHanded",
+            "Unwieldy"
+          ]
+        }
+      },
+      {
+        "wargearName": "CloseCombatWeapon",
+        "visibleName": "Close combat weapon",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "type": [
+            "Melee"
+          ]
+        }
+      },
+      {
+        "wargearName": "CroziusArcanum",
+        "visibleName": "Crozius arcanum",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+2",
+          "AP": "4",
+          "type": [
+            "Melee",
+            "Concussive"
+          ]
+        }
+      },
+      {
+        "wargearName": "DreadnoughtCloseCombatWeapon",
+        "visibleName": "Dreadnought close combat weapon",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 2,
+          "type": [
+            "Melee"
+          ]
+        }
+      },
+      {
+        "wargearName": "Eviscerator",
+        "visibleName": "Eviscerator",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "Armourbane",
+            "TwoHanded",
+            "Unwieldy"
+          ]
+        }
+      },
+      {
+        "wargearName": "HeavyChainsword",
+        "visibleName": "HeavyChainsword",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+2",
+          "AP": 5,
+          "type": [
+            "Melee",
+            "TwoHanded"
+          ]
+        }
+      },
+      {
+        "wargearName": "ForceAxe",
+        "visibleName": "Force axe",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+1",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "Force",
+            "Unwieldy"
+          ]
+        }
+      },
+      {
+        "wargearName": "ForceStave",
+        "visibleName": "Force stave",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+2",
+          "AP": 4,
+          "type": [
+            "Melee",
+            "Concussive",
+            "Force"
+          ]
+        }
+      },
+      {
+        "wargearName": "ForceSword",
+        "visibleName": "Force sword",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "AP": 3,
+          "type": [
+            "Melee",
+            "Force"
+          ]
+        }
+      },
+      {
+        "wargearName": "ForceWeapon",
+        "visibleName": "Force weapon",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "AP": 3,
+          "type": [
+            "Melee",
+            "Force"
+          ]
+        }
+      },
+      {
+        "wargearName": "LightningClaws",
+        "visibleName": "Lightning claws",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "AP": 3,
+          "type": [
+            "Melee",
+            "Shred",
+            "SpecialistWeapon"
+          ]
+        }
+      },
+      {
+        "wargearName": "PowerAxe",
+        "visibleName": "Power axe",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+1",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "Unwieldy"
+          ]
+        },
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "PowerFist",
+        "visibleName": "Power fist",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "SpecialistWeapon",
+            "Unwieldy"
+          ]
+        },
+        "isPowerWeapon": true,
+        "icon": "options/PowerFist"
+      },
+      {
+        "wargearName": "PowerMaul",
+        "visibleName": "Power maul",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+2",
+          "AP": 4,
+          "type": [
+            "Melee",
+            "Concussive"
+          ]
+        },
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "PowerLance",
+        "visibleName": "Power lance",
+        "wargearType": "MeleeWeapon",
+        "abilities": [
+          {
+            "name": "Charge",
+            "S": "+1",
+            "AP": 3,
+            "type": [
+              "Melee"
+            ]
+          },
+          {
+            "name": "Normal",
+            "AP": 4,
+            "type": [
+              "Melee"
+            ]
+          }
+        ],
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "PowerFistWithBuildInHeavyBolter",
+        "visibleName": "Power fist with build in Heavy-Bolter",
+        "wargearType": "MeleeWeapon",
+        "abilities": [
+          {
+            "name": "Power fist",
+            "S": "x2",
+            "AP": 2,
+            "type": [
+              "Melee",
+              "SpecialistWeapon",
+              "Unwieldy"
+            ]
+          }
+        ],
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "PowerFistWithBuildInHeavyFlamer",
+        "visibleName": "Power fist with build in Heavy-Flamer",
+        "wargearType": "MeleeWeapon",
+        "abilities": [
+          {
+            "name": "Power fist",
+            "S": "x2",
+            "AP": 2,
+            "type": [
+              "Melee",
+              "SpecialistWeapon",
+              "Unwieldy"
+            ]
+          }
+        ],
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "PowerSword",
+        "visibleName": "Power Sword",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+1",
+          "AP": 3,
+          "type": [
+            "Melee"
+          ]
+        },
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "PowerWeapon",
+        "visibleName": "PowerWeapon",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "AP": 3,
+          "type": [
+            "Melee"
+          ]
+        },
+        "isPowerWeapon": true
+      },
+      {
+        "wargearName": "RelicBlade",
+        "visibleName": "Relic blade",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "+2",
+          "AP": 3,
+          "type": [
+            "Melee",
+            "TwoHanded"
+          ]
+        }
+      },
+      {
+        "wargearName": "ThunderHammer",
+        "visibleName": "Thunder hammer",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 2,
+          "type": [
+            "Melee",
+            "Concussive",
+            "SpecialistWeapon",
+            "Unwieldy"
+          ]
+        }
+      },
+      {
+        "wargearName": "Witchblade",
+        "visibleName": "Witchblade",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "type": [
+            "Melee",
+            "Armourbane",
+            "Fleshbane"
+          ]
+        }
+      },
+      {
+        "wargearName": "AssaultGrenade",
+        "visibleName": "Assault grenade",
+        "wargearType": "Grenades",
+        "abilities": {
+          "range": 8,
+          "S": 3,
+          "type": [
+            "Assault_1",
+            "Blast",
+            "AssaultGrenade"
+          ]
+        }
+      },
+      {
+        "wargearName": "PlasmaGrenade",
+        "visibleName": "Plasma grenade",
+        "wargearType": "Grenades",
+        "abilities": [
+          {
+            "name": "Shooting",
+            "range": 8,
+            "S": 4,
+            "AP": 4,
+            "type": [
+              "Assault_1",
+              "Blast",
+              "PlasmaGrenade"
+            ]
+          },
+          {
+            "name": "Assault",
+            "S": 4,
+            "AP": 4,
+            "type": [
+              "PlasmaGrenade"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "DefensiveGrenade",
+        "visibleName": "Defensive grenade",
+        "wargearType": "Grenades",
+        "abilities": {
+          "range": 8,
+          "S": 1,
+          "type": [
+            "Assault_1",
+            "Blast",
+            "Blind",
+            "DefensiveGrenade"
+          ]
+        }
+      },
+      {
+        "wargearName": "HaywireGrenade",
+        "visibleName": "Haywire grenade",
+        "wargearType": "Grenades",
+        "abilities": [
+          {
+            "name": "Shooting",
+            "range": 8,
+            "S": 2,
+            "type": [
+              "Assault_1",
+              "Blast",
+              "HaywireGrenade"
+            ]
+          },
+          {
+            "name": "Assault",
+            "S": 2,
+            "type": [
+              "HaywireGrenade"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "KrakGrenades",
+        "visibleName": "Krak grenades",
+        "wargearType": "Grenades",
+        "abilities": [
+          {
+            "name": "Shooting",
+            "range": 8,
+            "S": 4,
+            "type": [
+              "Assault_1",
+              "KrakGrenade"
+            ]
+          },
+          {
+            "name": "Assault",
+            "S": 4,
+            "type": [
+              "KrakGrenade"
+            ]
+          }
+        ],
+        "specialRules": [
+          {
+            "textEng": "Shooting\n\nWhen a unit armed with krak grenades makes a shooting attack, one model can choose to throw a grenade, rather than using another shooting weapon.\n\nAssault\n\nUnless used in assaults against vehicles, gun emplacements or Monstrous Creatures, krak grenades have no effect. When they are used in assaults against vehicles, gun emplacements or Monstrous Creatures, krak grenades have the following profile:",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "MeltaBomb",
+        "visibleName": "Melta bomb",
+        "wargearType": "Grenades",
+        "abilities": {
+          "S": 1,
+          "type": [
+            "Armourbane",
+            "Unwieldy",
+            "MeltaBomb"
+          ]
+        },
+        "specialRules": [
+          {
+            "textEng": "Shooting\n\nMelta bombs are cumbersome devices. Melta bombs cannot be used to make a shooting attack.\n\nAssault\n\nUnless used in assaults against vehicles, gun emplacements or Monstrous Creatures, melta bombs have no effect. When used in assaults against vehicles, buildings, gun emplacements or Monstrous Creatures, melta bombs have the following profile:",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "FragGrenades",
+        "visibleName": "Frag grenades",
+        "specialRules": [
+          {
+            "textEng": "Shooting\n\nWhen a unit armed with assault grenades makes a shooting attack, one model can choose to throw a grenade, rather than using another shooting weapon.\n\nAssault\n\nModels equipped with assault grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "ArtificerArmor",
+        "visibleName": "Artificer armor"
+      },
+      {
+        "wargearName": "Auspex",
+        "visibleName": "Auspex",
+        "specialRules": [
+          {
+            "textEng": "A model with an auspex can use it in place of making a shooting attack. If he does so, target an enemy unit within 12\" (this does not count as choosing a target for his unit to shoot at). A unit that is targeted by one or more auspexes has its cover save reduced by 1 until the end of the phase.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "CicloneMissleLauncher",
+        "visibleName": "Ciclone missle launcher"
+      },
+      {
+        "wargearName": "CombatShield",
+        "visibleName": "Combat shield",
+        "specialRules": [
+          {
+            "textEng": "A combat shield confers a 6+ invulnerable save.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "ConversionBeamer",
+        "visibleName": "Conversion Beamer",
+        "specialRules": [
+          {
+            "textEng": "",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "ConversionField",
+        "visibleName": "Conversion field",
+        "specialRules": [
+          {
+            "textEng": "A conversion field confers a 4+ invulnerable save. At the end of a phase in which the bearer passes one or more invulnerable saves granted by the conversion field, all units within D6\" of the bearer must test as if they had been hit by a weapon with the Blind special rule. Friendly units can re-roll this test.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "DigitalWeapon",
+        "visibleName": "Digital weapon",
+        "specialRules": [
+          {
+            "textEng": "A model armed with digital weapons can re-roll a single failed roll To Wound in each Assault phase.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "DozerBlade",
+        "visibleName": "Dozer blade"
+      },
+      {
+        "wargearName": "emptySlot",
+        "visibleName": "-=>X<=- "
+      },
+      {
+        "wargearName": "ExtraArmour",
+        "visibleName": "Extra armour"
+      },
+      {
+        "wargearName": "FlammerstormCannon",
+        "visibleName": "Flammerstorm cannon"
+      },
+      {
+        "wargearName": "FoeSmitter",
+        "visibleName": "Foe smitter"
+      },
+      {
+        "wargearName": "FragAssaultCannon",
+        "visibleName": "Frag assault cannon"
+      },
+      {
+        "wargearName": "HunterKillerMissle",
+        "visibleName": "Hunter-killer missle"
+      },
+      {
+        "wargearName": "IronHalo",
+        "visibleName": "Iron halo",
+        "specialRules": [
+          {
+            "textEng": "An iron halo confers a 4+ invulnerable save.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "JumpPack",
+        "visibleName": "Jump pack",
+        "specialRules": [
+          {
+            "textEng": "Models equipped with jump packs gain the Jump unit type as described in Warhammer 40,000: The Rules.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "Lascannon",
+        "visibleName": "Lascannon"
+      },
+      {
+        "wargearName": "LionsRoar",
+        "visibleName": "Lion's roar"
+      },
+      {
+        "wargearName": "LocatorBeacon",
+        "visibleName": "Locator beacon"
+      },
+      {
+        "wargearName": "MaceOfRedemption",
+        "visibleName": "Mace Of Redemption"
+      },
+      {
+        "wargearName": "MasterCraftedBoltPistol",
+        "visibleName": "Master-crafted bolt pistol"
+      },
+      {
+        "wargearName": "MasterCraftedCombiPlasma",
+        "visibleName": "Master-crafted combi-plasma"
+      },
+      {
+        "wargearName": "MasterCraftedForceSword",
+        "visibleName": "Master-crafted force sword"
+      },
+      {
+        "wargearName": "MasterCraftedPlasmaPistol",
+        "visibleName": "Master-crafted plasma pistol"
+      },
+      {
+        "wargearName": "MeltaBomb",
+        "visibleName": "Melta bomb"
+      },
+      {
+        "wargearName": "MonsterSlayerOfCaliban",
+        "visibleName": "Monster slayer of Caliban"
+      },
+      {
+        "wargearName": "OrbitalStrike",
+        "visibleName": "Orbital Strike"
+      },
+      {
+        "wargearName": "Omniscop",
+        "visibleName": "Omniscop"
+      },
+      {
+        "wargearName": "PrediusRelicOfTheUnforgiven",
+        "visibleName": "Predius Relic Of The Unforgiven",
+        "wargearType": "Relic"
+      },
+      {
+        "wargearName": "PsychicHood",
+        "visibleName": "Psychic hood"
+      },
+      {
+        "wargearName": "RavenwingDeathwingCompanyBanner",
+        "visibleName": "Ravenwing company banner"
+      },
+      {
+        "wargearName": "Rosarius",
+        "visibleName": "Rosarius"
+      },
+      {
+        "wargearName": "SacredStandart",
+        "visibleName": "Sacred standart"
+      },
+      {
+        "wargearName": "Searchlight",
+        "visibleName": "Searchlight"
+      },
+      {
+        "wargearName": "ServoArm",
+        "visibleName": "Servo-arm",
+        "wargearType": "MeleeWeapon",
+        "abilities": {
+          "S": "x2",
+          "AP": 1,
+          "type": [
+            "Melee",
+            "SpecialistWeapon",
+            "Unwieldy"
+          ]
+        }
+      },
+      {
+        "wargearName": "ServoHarness",
+        "visibleName": "Servo-hsrness"
+      },
+      {
+        "wargearName": "ShroudOfHeroes",
+        "visibleName": "Shroud of heroes"
+      },
+      {
+        "wargearName": "Signum",
+        "visibleName": "Signum"
+      },
+      {
+        "wargearName": "SiegeShield",
+        "visibleName": "Siege shield"
+      },
+      {
+        "wargearName": "SmokeLounchers",
+        "visibleName": "Smoke lounchers"
+      },
+      {
+        "wargearName": "SpaceMarineBike",
+        "visibleName": "Space marine bike"
+      },
+      {
+        "wargearName": "SponsonLascannon",
+        "visibleName": "Sponson Lascannon"
+      },
+      {
+        "wargearName": "SponsonHeavyBolter",
+        "visibleName": "Sponson Heavy bolter"
+      },
+      {
+        "wargearName": "CamoCloak",
+        "visibleName": "Camo cloak",
+        "specialRules": [
+          {
+            "textEng": "A model wearing a camo cloak has +1 cover save. If it does not already have a cover save, it gains a 6+ cover save.",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "StormShield",
+        "visibleName": "Storm shield"
+      },
+      {
+        "wargearName": "TeleportHommer",
+        "visibleName": "Teleport hommer"
+      },
+      {
+        "wargearName": "TerminatorArmour",
+        "visibleName": "Terminator armor"
+      },
+      {
+        "wargearName": "TheEyeOfTheUnseen",
+        "visibleName": "The eye of the unseen"
+      },
+      {
+        "wargearName": "TwinLinkedAssaultCannon",
+        "visibleName": "Twin-linked Assault cannon"
+      },
+      {
+        "wargearName": "TwinLinkedAutoCannon",
+        "visibleName": "Twin-linked Auto cannon"
+      },
+      {
+        "wargearName": "TwinLinkedBoltgun",
+        "visibleName": "Twin-linked Boltgun"
+      },
+      {
+        "wargearName": "TwinLinkedFlamer",
+        "visibleName": "Twin-linked Flamer"
+      },
+      {
+        "wargearName": "TwinLinkedHeavyBolter",
+        "visibleName": "Twin-linked Heavy bolter"
+      },
+      {
+        "wargearName": "TwinLinkedHeavyFlamer",
+        "visibleName": "Twin-linked Heavy flamer"
+      },
+      {
+        "wargearName": "TwinLinkedLascannon",
+        "visibleName": "Twin-linked Lascannon"
+      },
+      {
+        "wargearName": "TwinLinkedMeltagun",
+        "visibleName": "Twin-linked Meltagun"
+      },
+      {
+        "wargearName": "TwinLinkedPlasmaGun",
+        "visibleName": "Twin-linked Plasma gun"
+      },
+      {
+        "wargearName": "TwinLinkedStormBolter",
+        "visibleName": "Twin-linked Storm bolter"
+      },
+      {
+        "wargearName": "TyphoonMissileLaauncher",
+        "visibleName": "Typhoon missile laauncher",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Frag missiles",
+            "range": 48,
+            "S": 4,
+            "AP": 6,
+            "type": [
+              "Heavy_2",
+              "Blast"
+            ]
+          },
+          {
+            "name": "Krakk missiles",
+            "range": 48,
+            "S": 8,
+            "AP": 3,
+            "type": [
+              "Heavy_2"
+            ]
+          }
+        ]
+      },
+      {
+        "wargearName": "Nathecium",
+        "visibleName": "Nathecium"
+      },
+      {
+        "wargearName": "ArmourOfFaith",
+        "visibleName": "Armour of Faith"
+      },
+      {
+        "wargearName": "AstartedGrenadeLauncher",
+        "visibleName": "Astarted Grenade Launcher",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "HoodOfHellfire",
+        "visibleName": "Hood of Hellfire"
+      },
+      {
+        "wargearName": "BlackSword",
+        "visibleName": "Black Sword",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "CeramitePlating",
+        "visibleName": "Ceramite Plating"
+      },
+      {
+        "wargearName": "CerberusLauncher",
+        "visibleName": "Cerberus Launcher",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "ChainFistWithBuiltInMeltagun",
+        "visibleName": "Chain fist with built-in Meltagun",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "DornsArrow",
+        "visibleName": "Dorn's Arrow",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "GauntletOfTheForge",
+        "visibleName": "Gauntlet of the Forge",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "FistOfDorn",
+        "visibleName": "Fist of Dorn",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "KesaresMantle",
+        "visibleName": "Kesare's Mantle"
+      },
+      {
+        "wargearName": "Infernum",
+        "visibleName": "Infernum",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "IroncladAssaultLauncher",
+        "visibleName": "Ironclad Assault Launcher",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "Moonfang",
+        "visibleName": "Moonfang"
+      },
+      {
+        "wargearName": "Moondrakkan",
+        "visibleName": "Moondrakkan"
+      },
+      {
+        "wargearName": "Quietus",
+        "visibleName": "Quietus",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "PowerFistWithBuildInStormBolter",
+        "visibleName": "Power fist with build-in storm bolter",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "RodOfTigurius",
+        "visibleName": "Rod of Tigurius",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "SeismicHammerWithBuiltInMeltagun",
+        "visibleName": "Seismic hammer with built-in meltagun",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "SiegeDrill",
+        "visibleName": "Siege Drill",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "SkyhammerMissleLauncher",
+        "visibleName": "Skyhammer Missle Launcher",
+        "wargearType": "RangedWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "SpearOfVulkan",
+        "visibleName": "Spear of Vulkan",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "SpecialIssueAmmunition",
+        "visibleName": "Special issue ammunition",
+        "wargearType": "RangedWeapon",
+        "abilities": [
+          {
+            "name": "Dragon bolt",
+            "range": 24,
+            "S": 4,
+            "AP": 5,
+            "type": [
+              "RapidFire",
+              "IgnoresCover"
+            ]
+          },
+          {
+            "name": "Hellfire round",
+            "range": 24,
+            "S": 1,
+            "AP": 5,
+            "type": [
+              "RapidFire",
+              "Poisoned_2"
+            ]
+          },
+          {
+            "name": "Kraken bolt",
+            "range": 30,
+            "S": 4,
+            "AP": 4,
+            "type": [
+              "RapidFire"
+            ]
+          },
+          {
+            "name": "Vengeance round",
+            "range": 18,
+            "S": 4,
+            "AP": 3,
+            "type": [
+              "RapidFire",
+              "GetsHot"
+            ]
+          }
+        ],
+        "specialRules": [
+          {
+            "textEng": "In addition the normal profile for their boltgun (including boltguns that are part of a combi-weapon), models with special issue ammunition can choose, in each of their Shoting phases? to instead use one of tge profiles below until the beginning of their next Shooting phase. All models with special issue annubition in a ubit use the same profile",
+            "nameRus": "",
+            "textRus": ""
+          }
+        ]
+      },
+      {
+        "wargearName": "SwordOfTheHighMarshals",
+        "visibleName": "Sword of the High Marshals",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "TalassarianTempestBlade",
+        "visibleName": "Talassarian Tempest Blade",
+        "wargearType": "MeleeWeapon",
+        "abilities": {}
+      },
+      {
+        "wargearName": "TeethOfTerra",
+        "visibleName": "Teeth of Terra"
+      },
+      {
+        "wargearName": "TheArmourIndomitus",
+        "visibleName": "The Armour Indomitus"
+      },
+      {
+        "wargearName": "TheBurningBlade",
+        "visibleName": "The Burning Blade"
+      },
+      {
+        "wargearName": "ThePrimarchsWrath",
+        "visibleName": "The Primarch's Wrath"
+      },
+      {
+        "wargearName": "TheRavensTalon",
+        "visibleName": "The Raven's Talon"
+      },
+      {
+        "wargearName": "TheShieldEternal",
+        "visibleName": "The Shield Eternal"
+      },
+      {
+        "wargearName": "SM_CompanyStandard",
+        "visibleName": "Company Standart"
+      },
+      {
+        "wargearName": "SM_ChapterBanner",
+        "visibleName": "Chapter Banner"
+      },
+      {
+        "wargearName": "SM_StandartOfEmperorAscedant",
+        "visibleName": "Standart Of Emperor Ascedant"
+      }
+    ],
+
+  "specialRules" : [
+
+{
+    "specialRuleName": "AcuteSenses",
+    "visibleName": "Acute senses"
+}, {
+    "specialRuleName": "AdamantiumWill ",
+    "visibleName": "Adamantium will "
+}, {
+    "specialRuleName": "AndTheyShallKnowNoFear",
+    "visibleName": "And they shall know no fear"
+}, {
+    "specialRuleName": "AntiGravUpwash",
+    "visibleName": "Anti-grav upwash"
+}, {
+    "specialRuleName": "Armourbane",
+    "visibleName": "Armourbane "
+}, {
+    "specialRuleName": "Assault",
+    "visibleName": "Assault"
+},  {
+    "specialRuleName": "Assault_1",
+    "visibleName": "Assault 1"
+}, {
+    "specialRuleName": "Assault_2",
+    "visibleName": "Assault 2"
+}, {
+    "specialRuleName": "AssaultVehicle",
+    "visibleName": "Assault vehicle"
+}, {
+    "specialRuleName": "ArmoriumCherub",
+    "visibleName": "Armourbane "
+}, {
+    "specialRuleName": "Barrage",
+    "visibleName": "Barrage"
+}, {
+    "specialRuleName": "Blast",
+    "visibleName": "Blast"
+}, {
+    "specialRuleName": "LargeBlast",
+    "visibleName": "Large blast"
+}, {
+    "specialRuleName": "BlessingOfTheOmnissiah",
+    "visibleName": "Blessing of the Omnissiah"
+}, {
+    "specialRuleName": "Blind",
+    "visibleName": "Blind"
+}, {
+    "specialRuleName": "Bulky",
+    "visibleName": "Bulky"
+}, {
+    "specialRuleName": "VeryBulky",
+    "visibleName": "Very Bulky"
+}, {
+    "specialRuleName": "ExtremelyBulky",
+    "visibleName": "Extremely Bulky"
+}, {
+    "specialRuleName": "BrotherhoodOfPsykers",
+    "visibleName": "Brotherhood of psykers"
+}, {
+    "specialRuleName": "BrotherhoodOfSorcerers",
+    "visibleName": "Brotherhood of sorcerers"
+}, {
+    "specialRuleName": "Bulky",
+    "visibleName": "Bulky"
+}, {
+    "specialRuleName": "Character",
+    "visibleName": "Character"
+
+}, {
+    "specialRuleName": "ClusterMines",
+    "visibleName": "Cluster mines"
+
+}, {
+    "specialRuleName": "ColdBlooded",
+    "visibleName": "Cold-blooded"
+
+}, {
+    "specialRuleName": "CombatSquads",
+    "visibleName": "Combat squads"
+}, {
+    "specialRuleName": "Concussive",
+    "visibleName": "Concussive"
+}, {
+    "specialRuleName": "CounterAttack",
+    "visibleName": "Counter-attack"
+}, {
+    "specialRuleName": "Crusader",
+    "visibleName": "Crusader"
+}, {
+    "specialRuleName": "Daemon",
+    "visibleName": "Daemon"
+}, {
+    "specialRuleName": "DestroyerWeapons",
+    "visibleName": "Destroyer Weapons"
+}, {
+    "specialRuleName": "DeepStrike",
+    "visibleName": "Deep strike"
+}, {
+    "specialRuleName": "DropPodAssault",
+    "visibleName": "Drop Pod Assault"
+}, {
+    "specialRuleName": "EternalWarrior",
+    "visibleName": "Eternal warrior"
+}, {
+    "specialRuleName": "Fear",
+    "visibleName": "Fear"
+}, {
+    "specialRuleName": "Fearless",
+    "visibleName": "Fearless"
+}, {
+    "specialRuleName": "FeelNoPain",
+    "visibleName": "Feel no pain"
+}, {
+    "specialRuleName": "Fleet",
+    "visibleName": "Fleet"
+}, {
+    "specialRuleName": "Fleshbane",
+    "visibleName": "Fleshbane"
+}, {
+    "specialRuleName": "Flyer",
+    "visibleName": "Flyer"
+}, {
+    "specialRuleName": "Force",
+    "visibleName": "Force"
+}, {
+    "specialRuleName": "FuriousCharge",
+    "visibleName": "Furious charge"
+}, {
+    "specialRuleName": "GetsHot",
+    "visibleName": "Gets hot"
+}, {
+    "specialRuleName": "GravWeaponry",
+    "visibleName": "Grav-weaponry"
+}, {
+    "specialRuleName": "Graviton",
+    "visibleName": "Graviton"
+}, {
+    "specialRuleName": "GravAmp",
+    "visibleName": "Grav-amp"
+}, {
+    "specialRuleName": "HammerOfWrath",
+    "visibleName": "Hammer ofWrath"
+}, {
+    "specialRuleName": "Hatred",
+    "visibleName": "Hatred"
+}, {
+    "specialRuleName": "HellfireShells",
+    "visibleName": "Hellfire shells"
+}, {
+    "specialRuleName": "Hatred_ChaosSpaceMarine",
+    "visibleName": "Hatred (Chaos Space Marine)"
+}, {
+    "specialRuleName": "Heavy_1",
+    "visibleName": "Heavy 1"
+}, {
+    "specialRuleName": "Heavy_2",
+    "visibleName": "Heavy 2"
+}, {
+    "specialRuleName": "Heavy_3",
+    "visibleName": "Heavy 3"
+}, {
+    "specialRuleName": "Heavy_4",
+    "visibleName": "Heavy 4"
+}, {
+    "specialRuleName": "Heavy_15",
+    "visibleName": "Heavy 15"
+}, {
+    "specialRuleName": "Heavy_20",
+    "visibleName": "Heavy 20"
+},  {
+    "specialRuleName": "Haywire",
+    "visibleName": "Haywire"
+},  {
+    "specialRuleName": "HitAndRun",
+    "visibleName": "Hit and run"
+}, {
+    "specialRuleName": "HonourOrDeath",
+    "visibleName": "Honour or Death"
+}, {
+    "specialRuleName": "Hover",
+    "visibleName": "Hover"
+},  {
+    "specialRuleName": "HoverStrike",
+    "visibleName": "Hover Strike"
+}, {
+    "specialRuleName": "IgnoresCover",
+    "visibleName": "Ignores cover"
+}, {
+    "specialRuleName": "Immobile",
+    "visibleName": "Immobile"
+}, {
+    "specialRuleName": "IndependentCharacter",
+    "visibleName": "Independent character"
+}, {
+    "specialRuleName": "Infantry",
+    "visibleName": "Infantry"
+},  {
+    "specialRuleName": "Infiltrate",
+    "visibleName": "Infiltrate"
+}, {
+    "specialRuleName": "InstantDeath",
+    "visibleName": "Instant death"
+}, {
+    "specialRuleName": "Interseptor",
+    "visibleName": "Interseptor"
+}, {
+    "specialRuleName": "ItWillNotDie",
+    "visibleName": "It will not die"
+}, {
+    "specialRuleName": "Jump",
+    "visibleName": "Jump"
+}, {
+    "specialRuleName": "Jink",
+    "visibleName": "Jink"
+}, {
+    "specialRuleName": "Lance",
+    "visibleName": "Lance"
+}, {
+    "specialRuleName": "MasterCrafted",
+    "visibleName": "Master-crafted"
+}, {
+    "specialRuleName": "MightyBulwark",
+    "visibleName": "Mighty Bulwark"
+}, {
+    "specialRuleName": "MasterTactican",
+    "visibleName": "Master tactican"
+}, {
+    "specialRuleName": "Melee",
+    "visibleName": "Melee"
+}, {
+    "specialRuleName": "Melta",
+    "visibleName": "Melta"
+}, {
+    "specialRuleName": "Mindlock",
+    "visibleName": "Mindlock"
+}, {
+    "specialRuleName": "MissileLock",
+    "visibleName": "MissileLock"
+}, {
+    "specialRuleName": "MonsterHunter",
+    "visibleName": "Monster hunter"
+},{
+    "specialRuleName": "MountedAssault",
+    "visibleName": "Mounted assault"
+},
+{
+    "specialRuleName": "MoveThroughCover",
+    "visibleName": "Move through cover"
+}, {
+    "specialRuleName": "NightFighting",
+    "visibleName": "Night fighting"
+},{
+    "specialRuleName": "Outflank",
+    "visibleName": "Outflank"
+}, {
+    "specialRuleName": "OneUseOnly",
+    "visibleName": "One Use Only"
+},  {
+    "specialRuleName": "OpenTopped",
+    "visibleName": "Open-topped"
+}, { 
+    "specialRuleName": "Pistol",
+    "visibleName": "Pistol"
+}, {
+    "specialRuleName": "Pinning",
+    "visibleName": "Pinning"
+}, {
+    "specialRuleName": "Poisoned",
+    "visibleName": "Poisoned"
+}, {
+    "specialRuleName": "PowerOfTheMashineSpirit",
+    "visibleName": "Power of the mashine spirit"
+}, {
+    "specialRuleName": "PreferredEnemy",
+    "visibleName": "Preferred enemy"
+},  {
+    "specialRuleName": "PreferredEnemy_ChaosSpaceMarine",
+    "visibleName": "Preferred enemy (Chaos Space Marine)"
+}, {
+    "specialRuleName": "PreferredEnemy_Tyranids",
+    "visibleName": "Preferred enemy (Tyranids)"
+}, {
+    "specialRuleName": "PrecisionShots",
+    "visibleName": "Precision Shots"
+}, {
+    "specialRuleName": "PrecisionStrike",
+    "visibleName": "Precision strike"
+}, 
+{
+    "specialRuleName": "PsychicPilot",
+    "visibleName": "Psychic Pilot"
+}, 
+{
+    "specialRuleName": "Psyker",
+    "visibleName": "Psyker"
+}, 
+{
+    "specialRuleName": "Psyker_ML1",
+    "visibleName": "Psyker (mastery level 1)"
+}, {
+    "specialRuleName": "Psyker_ML2",
+    "visibleName": "Psyker (mastery level 2)"
+}, {
+    "specialRuleName": "Psyker_ML3",
+    "visibleName": "Psyker (mastery level 3)"
+}, {
+    "specialRuleName": "Psyker_ML4",
+    "visibleName": "Psyker (mastery level 4)"
+},
+{
+    "specialRuleName": "RapidFire",
+    "visibleName": "Rapid Fire"
+}, 
+{
+    "specialRuleName": "Rage",
+    "visibleName": "Rage"
+}, 
+{
+    "specialRuleName": "Rampage",
+    "visibleName": "Rampage"
+}, 
+{
+    "specialRuleName": "Relentless",
+    "visibleName": "Relentless"
+},  {
+    "specialRuleName": "Rending",
+    "visibleName": "Rending"
+}, {
+    "specialRuleName": "Repair",
+    "visibleName": "Repair"
+}, {
+    "specialRuleName": "RepelTheEnemy",
+    "visibleName": "Repel the Enemy"
+}, {
+    "specialRuleName": "RitesOfBattle",
+    "visibleName": "Rites of Battle"
+}, {
+    "specialRuleName": "Salvo_2_3",
+    "visibleName": "Salvo_2_3"
+}, {
+    "specialRuleName": "Salvo_3_5",
+    "visibleName": "Salvo_3_5"
+}, {
+    "specialRuleName": "Scout",
+    "visibleName": "Scout"
+},  {
+    "specialRuleName": "ScoutSergeant",
+    "visibleName": "Scout Sergeant"
+}, {
+    "specialRuleName": "SentryDefenceSystem",
+    "visibleName": "Sentry Defence System"
+}, {
+    "specialRuleName": "Shred",
+    "visibleName": "Shred"
+}, {
+    "specialRuleName": "Shrouded",
+    "visibleName": "Shrouded"
+}, {
+    "specialRuleName": "SkilledRider",
+    "visibleName": "Skilled rider"
+}, {
+    "specialRuleName": "Skyfire",
+    "visibleName": "Skyfire"
+}, {
+    "specialRuleName": "SlowAndPurposefu",
+    "visibleName": "Slow and Purposefu"
+}, {
+    "specialRuleName": "Smash",
+    "visibleName": "Smash"
+}, {
+    "specialRuleName": "Sniper",
+    "visibleName": "Sniper"
+}, {
+    "specialRuleName": "SoulBlaze",
+    "visibleName": "Soul Blaze"
+}, {
+    "specialRuleName": "SpecialistWeapon",
+    "visibleName": "Specialist Weapon"
+}, {
+    "specialRuleName": "SplitFire",
+    "visibleName": "Split fire"
+}, {
+    "specialRuleName": "Stealth",
+    "visibleName": "Stealth"
+}, {
+    "specialRuleName": "StrafingRun",
+    "visibleName": "Strafing run"
+}, {
+    "specialRuleName": "Stubborn",
+    "visibleName": "Stubborn"
+}, {
+    "specialRuleName": "Supersonic",
+    "visibleName": "Supersonic"
+}, {
+    "specialRuleName": "Swarms",
+    "visibleName": "Swarms"
+}, {
+    "specialRuleName": "TwinLinked",
+    "visibleName": "Twin-linked"
+}, {
+    "specialRuleName": "TwoHanded",
+    "visibleName": "Two Handed"
+}, {
+    "specialRuleName": "Torrent",
+    "visibleName": "Torrent"
+}, {
+    "specialRuleName": "Template",
+    "visibleName": "Template"
+}, {
+    "specialRuleName": "TankHunter",
+    "visibleName": "Tank hunter"
+}, {
+    "specialRuleName": "Zealot",
+    "visibleName": "Zealot"
+}, {
+    "specialRuleName": "Unique",
+    "visibleName": "Unique"
+}, {
+    "specialRuleName": "UnrelentningHunter",
+    "visibleName": "UnrelentningHunter"
+}, {
+    "specialRuleName": "Unwieldy",
+    "visibleName": "Unwieldy"
+},{
+    "specialRuleName": "VectorDancer",
+    "visibleName": "Vector Dancer"
+},{
+    "specialRuleName": "VectoredAfterburners",
+    "visibleName": "Vectored Afterburners"
+},{
+    "specialRuleName": "VectorStrike",
+    "visibleName": "Vector Strike"
+},{
+    "specialRuleName": "Vehicle",
+    "visibleName": "Vehicle"
+},{
+    "specialRuleName": "Venerable",
+    "visibleName": "Venerable"
+},{
+    "specialRuleName": "Vortex",
+    "visibleName": "Vortex"
+},{
+    "specialRuleName": "Walker",
+    "visibleName": "Walker"
+},{
+    "specialRuleName": "Zealot",
+    "visibleName": "Zealot"
+},{
+    "specialRuleName": "AidUnlookedFor",
+    "visibleName": "Aid Unlooked For"
+},{
+    "specialRuleName": "BattleForgedHeroes",
+    "visibleName": "Battle-forged Heroes"
+},{
+    "specialRuleName": "ChapterTactics",
+    "visibleName": "Chapter Tactics"
+},{
+    "specialRuleName": "ChapterTactics_BlackTemplars",
+    "visibleName": "Chapter Tactics (Black Templars)"
+},{
+    "specialRuleName": "ChapterTactics_ImperialFists",
+    "visibleName": "Chapter Tactics (Imperial Fists)"
+},{
+    "specialRuleName": "ChapterTactics_RavenGuard",
+    "visibleName": "Chapter Tactics (Raven Guard)"
+},{
+    "specialRuleName": "ChapterTactics_Salamanders",
+    "visibleName": "Chapter Tactics (Salamanders)"
+},{
+    "specialRuleName": "ChapterTactics_WhiteScars",
+    "visibleName": "Chapter Tactics (White Scars)"
+},{
+    "specialRuleName": "ChapterTactics_Ultramarines",
+    "visibleName": "Chapter Tactics (Ultramarines)"
+},{
+    "specialRuleName": "CrusadeOfWrath",
+    "visibleName": "Crusade of Wrath"
+},{
+    "specialRuleName": "DecimatorProtocol",
+    "visibleName": "Decimator Protocol"
+},{
+    "specialRuleName": "EyeOfVengeance",
+    "visibleName": "Eye of Vengeance"
+},{
+    "specialRuleName": "FlammingProjectiles",
+    "visibleName": "Flamming Projectiles"
+},{
+    "specialRuleName": "JammingBeacon",
+    "visibleName": "Jamming Beacon"
+},{
+    "specialRuleName": "HeroicIntervention",
+    "visibleName": "Heroic Intervention"
+},{
+    "specialRuleName": "HoldTheLine",
+    "visibleName": "Hold the Line"
+},{
+    "specialRuleName": "IconOfObstinacy",
+    "visibleName": "Icon of Obstinacy"
+},{
+    "specialRuleName": "MasterOfPrescience",
+    "visibleName": "Master of Prescience"
+},{
+    "specialRuleName": "MasterOfTheHunt",
+    "visibleName": "Master of the Hunt"
+},{
+    "specialRuleName": "OathOfRynn",
+    "visibleName": "Oath of Rynn"
+},{
+    "specialRuleName": "RelicsOfHelsreach",
+    "visibleName": "Relics of Helsreach"
+},{
+    "specialRuleName": "SeeButRemainUnseen",
+    "visibleName": "See, But Remain Unseen"
+},{
+    "specialRuleName": "SlayerOfChampions",
+    "visibleName": "Slayer of Champions"
+},{
+    "specialRuleName": "SurpriseAttack",
+    "visibleName": "Surprise Attack"
+},{
+    "specialRuleName": "TheForgefather",
+    "visibleName": "The Forgefather"
+},{
+    "specialRuleName": "UltramarinesTankCommander",
+    "visibleName": "Ultramarines Tank Commander"
+},{
+    "specialRuleName": "UnyieldingSpectres",
+    "visibleName": "Unyielding Spectres"
+},{
+    "specialRuleName": "UnmatchedZeal",
+    "visibleName": "Unmatched Zeal"
+}
+]
+}

@@ -1,0 +1,137 @@
+@font-face {
+	font-family: Forum;
+	src: url("fonts/Forum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Marta;
+	src: url("fonts/Marta_Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: Marta;
+	font-style: italic;
+	src: url("fonts/Marta_Italic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Marta;
+	font-style: bold;
+	src: url("fonts/Marta_Bold.otf") format("opentype");
+}
+
+body {
+	background-color: grey;
+}
+.cards {
+	min-width: 280mm;
+}
+.card {
+    display: inline-block;
+	font-weight: bold;
+	font-family: Forum; 
+	height: 880px;
+	width: 630px;
+	/*background-image: url('../pics/preview-Arcane-front3.jpg');*/
+	background-color:  #C03E2E;
+	background-size: 630px ;
+	padding: 24px 24px;
+	box-sizing: border-box;
+	float: left;
+	margin: 0 1px 1px 0; 
+
+	background-color: #C03E2E;
+}
+.title {
+	font-size: 40px;
+	line-height: 40px;
+	padding: 5px 0; 
+	font-family: Marta; 
+	min-height: 50px;
+	border: 2px solid  #C03E2E;
+	border-radius: 20px 20px 0 0;
+	text-align: center;
+	box-sizing:border-box ;
+	background-color: #FFF;
+}
+.level {
+	/*font-size: 4px;*/
+	line-height: 8.5px;
+	font-size: 20px;
+	padding: 5px; 
+	font-family: Forum; 
+	height: 21px;
+	text-align: center;
+	box-sizing:border-box ;
+	color: #FFF;
+
+	background-color: #C03E2E;
+}
+.props {
+	text-align: center;
+	background-color: #fff;
+}
+.prop {
+	width: 50%;
+	float: left;
+	border: 2px solid  #C03E2E;
+}
+.propName {
+	font-family: Marta;
+	line-height: 50px;
+	font-size: 28px;
+	height: 39px;
+
+	color: #C03E2E;
+}
+.propValue {
+	line-height: 40px;
+	font-size: 28px;
+	height: 39px;
+}
+.text {
+	height: 525px;
+	border-radius: 0 0 20px 20px ;
+	border: 2px solid  #C03E2E;
+	box-sizing:border-box;
+	position: relative;
+	background-color: #fff;
+}
+.text p {
+	padding: 0 19px; 
+	font-size: 23px;
+	line-height: 23px;
+	margin: 0px; 
+	margin-top: 13px; 	
+	margin-bottom: 13px; 
+}
+.text p:first-child {
+	margin-top: 27px; 	
+}
+.text p:last-child {
+	margin-bottom: 20px; 	
+}
+
+.higherLevels {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+    border-top: 10px solid  #C03E2E;
+}
+.higherLevels p.first {
+	margin-top: 20px; 	
+}
+.higherLevels p:last-child {
+	margin-bottom: 20px; 	
+}
+.footer {
+	font-family: Marta;
+	line-height: 70px;
+	font-size: 37px;
+	height: 70px;
+	color: #FFF;
+
+}
+
+
+
