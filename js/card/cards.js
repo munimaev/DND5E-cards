@@ -7,6 +7,13 @@ var Card = React.createClass({
       "Чародей": "cardSorserer",
       "Следопыт": "cardRanger",
       "Жрец": "cardCleric",
+      "Жрец Бури" : "cardCleric",
+      "Жрец Войны":"cardCleric",
+      "Жрец Жизни":"cardCleric",
+      "Жрец Знания":"cardCleric",
+      "Жрец Обмана":"cardCleric",
+      "Жрец Природы":"cardCleric",
+      "Жрец Света":"cardCleric",
       "Друид": "cardDruid",
       "Паладин": "cardPaladin",
       "Бард": "cardBard"
@@ -20,7 +27,17 @@ var Card = React.createClass({
     } 
     var bigName = bigNameLength > 26 ? true : false;
     var cardClass = 'card ' + typeClass
-    return (
+    if (this.props.showBack) {
+      cardClass += ' back';
+      var lvlNum = this.props.data.level == 'Заговор' ? 0 : this.props.data.level.substr(0,1);
+      return (
+        <div className={cardClass}>
+          <div className='number'>{lvlNum}</div>
+          <div className='number2'>{lvlNum}</div>
+        </div>
+      );
+    }
+    else return (
       <div className={cardClass}>
         <div className="title"><span className="fs">{this.props.data.name}</span></div>
         <div className="level">{this.props.data.level}, {this.props.data.type}</div>
@@ -145,7 +162,17 @@ var Cards = React.createClass({
     });
   },
   getInitialState: function() {
-    return {data: [], selectedClass: 'Все'};
+    return {data: [], selectedClass: 'Все', showBacks: false, 
+    lvl0: false,
+    lvl1: false,
+    lvl2: false,
+    lvl3: false,
+    lvl4: false,
+    lvl5: false,
+    lvl6: false,
+    lvl7: false,
+    lvl8: false,
+    lvl9: false};
   },
   componentDidMount: function() {
     this.loadCommentsFromServer();
@@ -154,20 +181,30 @@ var Cards = React.createClass({
   handleChange: function(event) {
     this.setState({selectedClass: event.target.value});
   },
+  handleChangeLvl: function(lvl, event) {
+    var lvlName = 'lvl'+lvl;
+    var obj = {};
+    obj[lvlName] = !this.state[lvlName];
+    this.setState(obj);
+  },
+  showBacksChange: function(event) {
+    this.setState({showBacks: !this.state.showBacks  });
+  },
   render: function() {
     var cardNodes = '';
     if (this.state.selectedClass == 'Все') {
       cardNodes = this.cards.map(function(card) {
         return (
-          <Card data={card} type={this.state.selectedClass}/>
+          <Card data={card} type={this.state.selectedClass} showBack={this.state.showBacks}/>
           );
         }, this);
     } else {
       var arr = [];
       this.cards.forEach(function(card) {
-        if (~this.classesCard[this.state.selectedClass].indexOf(card.name )) {
+        var lvlNum = card.level == 'Заговор' ? 0 : card.level.substr(0,1);
+        var lvlName = 'lvl' + lvlNum;
+        if (this.state[lvlName] && ~this.classesCard[this.state.selectedClass].indexOf(card.name )) {
           arr.push(card)
-          console.log(card.name)
         } 
         else {
         }
@@ -179,9 +216,21 @@ var Cards = React.createClass({
         }
       }(this))
 
+      
+      if (this.state.showBacks) {
+        var tempArr = [];
+        while (arr.length) {
+          var slice = arr.splice(0,3);
+          for (var i = slice.length - 1; i >= 0; i--) {
+            tempArr.push(slice[i])
+          }
+        }
+        arr = tempArr;
+      console.log(this.state.showBacks)
+      }
       cardNodes = arr.map(function(card) {
         return (
-          <Card data={card} type={this.state.selectedClass}/>
+          <Card data={card} type={this.state.selectedClass} showBack={this.state.showBacks}/>
           );
         }, this);
     }
@@ -195,11 +244,53 @@ var Cards = React.createClass({
           <option value="Волшебник">Волшебник</option>
           <option value="Друид">Друид</option>
           <option value="Жрец">Жрец</option>
+          <option value="Жрец Бури">Жрец Бури</option>
+          
+          <option value="Жрец Войны">Жрец Войны</option>
+          <option value="Жрец Жизни">Жрец Жизни</option>
+          <option value="Жрец Знания">Жрец Знания</option>
+          <option value="Жрец Обмана">Жрец Обмана</option>
+          <option value="Жрец Природы">Жрец Природы</option>
+          <option value="Жрец Света">Жрец Света</option>
+
           <option value="Колдун">Колдун</option>
           <option value="Паладин">Паладин</option>
           <option value="Следопыт">Следопыт</option>
           <option value="Чародей">Чародей</option>
-        </select>
+        </select> | 
+        <input type="checkbox" 
+              checked={this.state.lvl0}
+              onChange={(e) => this.handleChangeLvl(0, e)} /> 0 |
+        <input type="checkbox" 
+              checked={this.state.lvl1}
+              onChange={(e) => this.handleChangeLvl(1, e)} /> 1 |
+        <input type="checkbox" 
+              checked={this.state.lvl2}
+              onChange={(e) => this.handleChangeLvl(2, e)} /> 2 |
+        <input type="checkbox" 
+              checked={this.state.lvl3}
+              onChange={(e) => this.handleChangeLvl(3, e)} /> 3 |
+        <input type="checkbox" 
+              checked={this.state.lvl4}
+              onChange={(e) => this.handleChangeLvl(4, e)} /> 4 |
+        <input type="checkbox" 
+              checked={this.state.lvl5}
+              onChange={(e) => this.handleChangeLvl(5, e)} /> 5 |
+        <input type="checkbox" 
+              checked={this.state.lvl6}
+              onChange={(e) => this.handleChangeLvl(6, e)} /> 6 |
+        <input type="checkbox" 
+              checked={this.state.lvl7}
+              onChange={(e) => this.handleChangeLvl(7, e)} /> 7 |
+        <input type="checkbox" 
+              checked={this.state.lvl8}
+              onChange={(e) => this.handleChangeLvl(8, e)} /> 8 |
+        <input type="checkbox" 
+              checked={this.state.lvl9}
+              onChange={(e) => this.handleChangeLvl(9, e)} /> 9 |
+        <input type="checkbox" 
+            checked={this.state.showBacks}
+            onChange={this.showBacksChange} /> Back
         <div className="cards" >
           {cardNodes}
         </div>

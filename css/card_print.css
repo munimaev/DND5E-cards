@@ -44,6 +44,12 @@ body {
 	margin-right: 1px;
 
 	background-color: #999;
+	position: relative;
+
+}
+.card.back {
+	/*display: block;*/
+	/*float: right;*/
 }
 .title {
 	font-size: 4mm;
@@ -179,6 +185,31 @@ body {
 
 }
 
+.card .number {
+    position: absolute;
+    bottom: 13px;
+    left: 25px;
+    font-weight: bold;
+    font-size: 60px;
+    width: 35px;
+    text-align: center;
+}
+.card .number2 {
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+
+    position: absolute;
+    font-weight: bold;
+    font-size: 60px;
+    width: 35px;
+    text-align: center;
+
+    top: 13px;
+    right: 25px;
+}
 
 
 .card.cardArcane { 	background-color: #C03E2E; }
@@ -201,6 +232,7 @@ body {
 
 
 .card.cardSorserer { 	background-color: #204291; }
+.cardSorserer.card.back { background-image: url('../pics/preview-Sorserer-back.jpg'); color: #204291;}
 .cardSorserer .title { 	border-bottom: 1px solid  #204291; }
 .cardSorserer .level { 	background-color: #204291; }
 .cardSorserer .higherLevels {     border-top: 1px solid  #204291;     }
@@ -221,6 +253,7 @@ body {
 
 
 .cardCleric.card { background-color: #D6A127; }
+.cardCleric.card.back { background-image: url('../pics/preview-Cleric-back.jpg'); color: #D6A127;}
 .cardCleric .title { border-bottom: 1px solid  #D6A127; }
 .cardCleric .level { background-color: #D6A127; }
 .cardCleric .higherLevels { border-top: 1px solid  #D6A127; }
@@ -228,6 +261,7 @@ body {
 .cardCleric .propName { color: #D6A127; }
 
 .cardDruid.card { background-color: #64A048; }
+.cardDruid.card.back { background-image: url('../pics/preview-Druid-back.jpg'); color: #64A048;}
 .cardDruid .title { border-bottom: 1px solid  #64A048; }
 .cardDruid .level { background-color: #64A048; }
 .cardDruid .higherLevels { border-top: 1px solid  #64A048; }
@@ -236,6 +270,7 @@ body {
 
 
 .cardPaladin.card { background-color: #38A5C6; }
+.cardPaladin.card.back { background-image: url('../pics/preview-Paladin-back.jpg'); color: #38A5C6;}
 .cardPaladin .title { border-bottom: 1px solid  #38A5C6; }
 .cardPaladin .level { background-color: #38A5C6; }
 .cardPaladin .higherLevels { border-top: 1px solid  #38A5C6; }
@@ -244,6 +279,7 @@ body {
 
 
 .cardBard.card { background-color: #812264; }
+.cardBard.card.back { background-image: url('../pics/preview-Bard-back.jpg'); color: #812264;}
 .cardBard .title { border-bottom: 1px solid  #812264; }
 .cardBard .level { background-color: #812264; }
 .cardBard .higherLevels { border-top: 1px solid  #812264; }

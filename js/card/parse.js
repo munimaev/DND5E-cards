@@ -6,7 +6,14 @@ var Card = React.createClass({
 
 
   render: function() {
-    var typeClassIndex = {"Магия":"cardArcane","Следопыт":"cardRanger","Жрец":"cardCleric","Друид":"cardDruid","Паладин":"cardPaladin","Бард":"cardBard"}; 
+    var typeClassIndex = {
+      "Магия":"cardArcane",
+      "Следопыт":"cardRanger",
+      "Жрец":"cardCleric",
+      "Друид":"cardDruid",
+      "Паладин":"cardPaladin",
+      "Бард":"cardBard"
+    }; 
     var typeClass = typeClassIndex[this.props.type];
     var bigNameLength = this.props.data.name.length;
     for (var i = 0; i <bigNameLength; i++) {
