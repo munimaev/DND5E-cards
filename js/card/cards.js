@@ -205,7 +205,6 @@ var Cards = React.createClass({
       })
     } else {
       cards = this.cards.filter(function(card) {
-        console.log('cards.js', 208, selectedSource);
         return card.source == selectedSource;
       })
     }
