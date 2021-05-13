@@ -162,7 +162,7 @@ var Cards = React.createClass({
     });
   },
   getInitialState: function() {
-    return {data: [], selectedClass: 'Все', showBacks: false, 
+    return {data: [], selectedClass: 'Все', selectedSource: 'Все', showBacks: false, 
     lvl0: false,
     lvl1: false,
     lvl2: false,
@@ -181,6 +181,9 @@ var Cards = React.createClass({
   handleChange: function(event) {
     this.setState({selectedClass: event.target.value});
   },
+  handleChangeSource: function(event) {
+    this.setState({selectedSource: event.target.value});
+  },
   handleChangeLvl: function(lvl, event) {
     var lvlName = 'lvl'+lvl;
     var obj = {};
@@ -192,15 +195,30 @@ var Cards = React.createClass({
   },
   render: function() {
     var cardNodes = '';
+    var cards = [];
+    var selectedSource = this.state.selectedSource;
+    if (selectedSource == 'Все') {
+      cards = this.cards;
+    } else if (selectedSource == 'PHB') {
+      cards = this.cards.filter(function(card) {
+        return !card.source;
+      })
+    } else {
+      cards = this.cards.filter(function(card) {
+        console.log('cards.js', 208, selectedSource);
+        return card.source == selectedSource;
+      })
+    }
+
     if (this.state.selectedClass == 'Все') {
-      cardNodes = this.cards.map(function(card) {
+      cardNodes = cards.map(function(card) {
         return (
           <Card data={card} type={this.state.selectedClass} showBack={this.state.showBacks}/>
           );
         }, this);
     } else {
       var arr = [];
-      this.cards.forEach(function(card) {
+      cards.forEach(function(card) {
         var lvlNum = card.level == 'Заговор' ? 0 : card.level.substr(0,1);
         var lvlName = 'lvl' + lvlNum;
         if (this.state[lvlName] && ~this.classesCard[this.state.selectedClass].indexOf(card.name )) {
@@ -226,7 +244,6 @@ var Cards = React.createClass({
           }
         }
         arr = tempArr;
-      console.log(this.state.showBacks)
       }
       cardNodes = arr.map(function(card) {
         return (
@@ -234,30 +251,34 @@ var Cards = React.createClass({
           );
         }, this);
     }
-    // var classType = {""}[this.state.type]
 
     return (
       <div>
-        <select value={this.state.selectedClass} onChange={this.handleChange}>
-          <option value="Все">Все</option>
-          <option value="Бард">Бард</option>
-          <option value="Волшебник">Волшебник</option>
-          <option value="Друид">Друид</option>
-          <option value="Жрец">Жрец</option>
-          <option value="Жрец Бури">Жрец Бури</option>
-          
-          <option value="Жрец Войны">Жрец Войны</option>
-          <option value="Жрец Жизни">Жрец Жизни</option>
-          <option value="Жрец Знания">Жрец Знания</option>
-          <option value="Жрец Обмана">Жрец Обмана</option>
-          <option value="Жрец Природы">Жрец Природы</option>
-          <option value="Жрец Света">Жрец Света</option>
+      <select value={this.state.selectedClass} onChange={this.handleChange}>
+        <option value="Все">Все</option>
+        <option value="Бард">Бард</option>
+        <option value="Волшебник">Волшебник</option>
+        <option value="Друид">Друид</option>
+        <option value="Жрец">Жрец</option>
+        <option value="Жрец Бури">Жрец Бури</option>
+        
+        <option value="Жрец Войны">Жрец Войны</option>
+        <option value="Жрец Жизни">Жрец Жизни</option>
+        <option value="Жрец Знания">Жрец Знания</option>
+        <option value="Жрец Обмана">Жрец Обмана</option>
+        <option value="Жрец Природы">Жрец Природы</option>
+        <option value="Жрец Света">Жрец Света</option>
 
-          <option value="Колдун">Колдун</option>
-          <option value="Паладин">Паладин</option>
-          <option value="Следопыт">Следопыт</option>
-          <option value="Чародей">Чародей</option>
-        </select> | 
+        <option value="Колдун">Колдун</option>
+        <option value="Паладин">Паладин</option>
+        <option value="Следопыт">Следопыт</option>
+        <option value="Чародей">Чародей</option>
+      </select> | 
+      <select value={this.state.selectedSource} onChange={this.handleChangeSource}>
+        <option value="Все">Все</option>
+        <option value="PHB">PHB</option>
+        <option value="Elemental Evil">EE</option>
+      </select> | 
         <input type="checkbox" 
               checked={this.state.lvl0}
               onChange={(e) => this.handleChangeLvl(0, e)} /> 0 |
