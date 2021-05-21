@@ -23,7 +23,7 @@ var Card = React.createClass({
       }
     } 
     var bigName = bigNameLength > 26 ? true : false;
-    var cardClass = 'card ' + typeClass
+    var cardClass = 'card ' + typeClass;
     return (
       <div className={cardClass}>
         <div className="title"><span className="fs">{this.props.data.name}</span></div>

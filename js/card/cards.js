@@ -27,6 +27,7 @@ var Card = React.createClass({
     } 
     var bigName = bigNameLength > 26 ? true : false;
     var cardClass = 'card ' + typeClass
+    var source = this.props.data.source ? '- ' + this.props.data.source.split(' ').map(function(w) {return w[0]} ).join('') : '';
     if (this.props.showBack) {
       cardClass += ' back';
       var lvlNum = this.props.data.level == 'Заговор' ? 0 : this.props.data.level.substr(0,1);
@@ -61,7 +62,7 @@ var Card = React.createClass({
         </div>
         <CardText text={this.props.data.text} hightlevel={this.props.data.hightlevel} bigName={bigName}/>
         <div className="footer">
-          {this.props.type} - {this.props.data.level}
+          {this.props.type} - {this.props.data.level} {source}
         </div>
       </div>
     );
