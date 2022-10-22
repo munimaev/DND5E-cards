@@ -9,4 +9,4 @@
 * React.js
  
 ####Демка
-<a href="https://munimaev.github.io/DND5E-cards/">Распечатать себе карточек!</a>
+<a href="https://nfirex.github.io/DND5E-cards/">Распечатать себе карточек!</a>
